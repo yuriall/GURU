@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mypageFragment"
+        android:title="Mypage"
+        android:icon="@drawable/ic_mypage"/>
+
+    <item
+        android:id="@+id/shelterFragment"
+        android:title="Shelter"
+        android:icon="@drawable/ic_shelter"/>
+
+    <item
+        android:id="@+id/quizFragment"
+        android:title="Quiz"
+        android:icon="@drawable/ic_quiz"/>
+
+</menu>
