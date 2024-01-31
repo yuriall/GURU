@@ -15,11 +15,46 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NavigationBar"
         tools:targetApi="31">
+        <activity
+            android:name=".War4"
+            android:exported="false" />
+        <activity
+            android:name=".War3"
+            android:exported="false" />
+        <activity
+            android:name=".War2"
+            android:exported="false" />
+        <activity
+            android:name=".War1"
+            android:exported="false" />
+        <activity
+            android:name=".War"
+            android:exported="false" />
+        <activity
+            android:name=".Earthquake4"
+            android:exported="false" />
+        <activity
+            android:name=".Earthquake3"
+            android:exported="false" />
+        <activity
+            android:name=".Earthquake2"
+            android:exported="false" />
+        <activity
+            android:name=".Earthquake1"
+            android:exported="false" />
+        <activity
+            android:name=".Earthquake"
+            android:exported="false" />
+        <activity
+            android:name=".QuizStart"
+            android:exported="false" />
+        <activity
+            android:name=".KnowledgeSelect"
+            android:exported="false" />
 
         <meta-data
             android:name="com.naver.maps.map.CLIENT_ID"
             android:value="y9ii3vi79z" />
-
 
         <activity
             android:name=".MainActivity"

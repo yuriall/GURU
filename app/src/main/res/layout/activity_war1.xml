@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8E4E8"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="84dp">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="379dp"
+        android:layout_height="491dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="36dp"
+        android:lineSpacingExtra="7sp"
+        android:text="1. 경계경보\n- 적의 공격이 예상될 때\n- 사이렌으로 1분 동안 평탄음(---)이 울리고\n  라디오·TV·확성기 등으로 경보방송\n\n2. 공습경보\n- 적의 공격이 긴박하거나 공습중일 때\n- 사이렌으로 3분 동안 파상음(∼∼∼)이 울리고\n  라디오·TV·확성기 등으로도 경보방송\n\n3. 경보가 울리면 어떻게 해야할까?\n- 즉시 방송을 들으며 정부의 안내에 따르기\n- 밤에는 불을 꺼야하며 부득이한 경우에는 \n  불빛이 밖으로 새어 나가지 않도록 차단"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Q. "
+        android:textColor="#404040"
+        android:textSize="80sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="297dp"
+        android:layout_height="131dp"
+        android:text="이것 모르면 대피 못 한다!\n경보의 종류에는\n어떤 것이 있을까?"
+        android:textColor="#404040"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+</LinearLayout>
