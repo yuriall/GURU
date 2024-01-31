@@ -2,4 +2,28 @@
     <string name="app_name">NavigationBar</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="question">질문</string>
+    <string name="count_label">%d/%d</string>
+    <string name="submit">%s</string>
+
+    <string name="back"><![CDATA[< Back]]></string>
+    <string name="QUiz">재난 상식 퀴즈</string>
+    <string name="zz">재난에 대해 알아본 슈니!</string>
+    <string name="cv">알쓸신잡 코너에서 열심히 공부하셨나요?</string>
+    <string name="study">퀴즈를 통해 제대로 공부했는지 확인해봐요!</string>
+    <string name="start">퀴즈 시작하기</string>
+    <string name="todo">TODO</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_4">4</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_5">5</string>
+    <string name="stage">Stage</string>
+
+
 </resources>

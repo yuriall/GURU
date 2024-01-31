@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4c7380"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 첫 번째 텍스트뷰 -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="@string/QUiz"
+        android:textColor="#D8E4E8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <!-- 두 번째 텍스트뷰 -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textColor="#D8E4E8"
+        android:text="@string/zz"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+
+    <!-- 세 번째 텍스트뷰 -->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="@string/cv"
+        android:textColor="#D8E4E8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <!-- 네 번째 텍스트뷰 -->
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/study"
+        android:textColor="#D8E4E8"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- 이미지뷰 -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="308dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/img" />
+
+    <!-- 버튼 -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#D8E4E8"
+        android:layout_marginTop="30dp"
+        android:textColor="#4c7380"
+        android:text="@string/start"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

@@ -28,7 +28,7 @@ class QuizFragment : Fragment() {
         }
         button2.setOnClickListener {
             // 다음 Activity로 이동
-            val intent = Intent(activity, QuizStart::class.java)
+            val intent = Intent(activity, Quiz::class.java)
             startActivity(intent)
         }
 
