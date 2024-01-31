@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        setFragment(TAG_SHELTER ,MapFragment())
+        setFragment(TAG_MYPAGE ,MypageFragment())
 
         binding.navigationView.setOnItemSelectedListener { item ->
             when(item.itemId) {
