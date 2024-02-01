@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "650955665196",
+    "project_id": "guru2-5-resister",
+    "storage_bucket": "guru2-5-resister.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650955665196:android:d8dd308714ecee9f370689",
+        "android_client_info": {
+          "package_name": "com.example.navigationbar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxYG5fqOf0dVlwPkr7DoLlskbGDvftnS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

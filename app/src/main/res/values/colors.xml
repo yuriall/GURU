@@ -3,4 +3,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="MidfulBrown60">#926247</color>
+    <color name="mindfulBrown_10">#F7F4F2</color>
+    <color name="mindfulBrown_20">#E8DDD9</color>
+    <color name="mindfulBrown_60">#926247</color>
+    <color name="mindfulBrown_80">#4F3422</color>
+    <color name="gray_20">#F5F5F5</color>
+    <color name="gray_40">#3F3C36</color>
+    <color name="green_10">#E5EAD7</color>
+    <color name="green_50">#9BB168</color>
 </resources>
