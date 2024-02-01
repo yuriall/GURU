@@ -10,6 +10,7 @@ class War : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_war)
 
+        val button_back=findViewById<Button>(R.id.button_back)
         val button1 = findViewById<Button>(R.id.button1)
         val button2 = findViewById<Button>(R.id.button2)
         val button3 = findViewById<Button>(R.id.button3)
@@ -21,6 +22,10 @@ class War : AppCompatActivity() {
             startActivity(intent)
         }
 
+        button_back.setOnClickListener {
+            moveToAnotherPage(KnowledgeSelect::class.java)
+        }
+        
         button1.setOnClickListener {
             moveToAnotherPage(War1::class.java)
         }

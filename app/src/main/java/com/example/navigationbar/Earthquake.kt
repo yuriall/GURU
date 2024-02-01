@@ -11,6 +11,7 @@ class Earthquake : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_earthquake)
 
+        val button_back=findViewById<Button>(R.id.button_back)
         val button5 = findViewById<Button>(R.id.button5)
         val button6 = findViewById<Button>(R.id.button6)
         val button7 = findViewById<Button>(R.id.button7)
@@ -19,8 +20,12 @@ class Earthquake : AppCompatActivity() {
         fun moveToAnotherPage(className: Class<*>) {
             val intent = Intent(this, className)
             startActivity(intent)
-
         }
+
+        button_back.setOnClickListener {
+            moveToAnotherPage(KnowledgeSelect::class.java)
+        }
+
         button5.setOnClickListener {
             moveToAnotherPage(Earthquake1::class.java)
         }

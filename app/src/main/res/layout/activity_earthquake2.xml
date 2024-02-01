@@ -1,61 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D8E4E8"
+    android:background="#F7F4F2"
     tools:context=".knowledge2">
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/mindfulBrown_20"
+        android:text="@string/back"
+        android:textColor="#000000"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textViewQ"
-        android:layout_width="wrap_content"
+        android:layout_width="79dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="85dp"
         android:text="Q. "
         android:textColor="#404040"
-        android:textSize="80sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="80sp" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="377dp"
         android:layout_height="489dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="29dp"
         android:gravity="left"
         android:lineSpacingExtra="7dp"
         android:text="지진은 지구 내부의 움직임으로\n일어나는 자연재해이기 때문에 발생한 특정 지역이 아니더라도 인근 지역에서도 여진이 발생할 수 있어.\n여진이란 지진의 여파로 인해 발생하는 지진의 뒷 일을 뜻하는데, 여진 등의 위험에 방지하기 위하여 인근 지역에 거주하고 있는 국민들에게도 지진 재난 문자를 발송하고 있다고 해.\n규모 3.0-3.5는 반경 50km, 규모 3.5-4.0은 반경 80km, 규모 4.0 이상의 지진은 전국으로 재난 문자를 송출하도록 되어있어 \n그러므로 재난 문자를 받게 된다면 \n현재 상황에 대한 경각심을 갖는 것도 중요해!"
         android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView3" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="283dp"
         android:layout_height="123dp"
-        android:layout_marginStart="104dp"
-        android:layout_marginTop="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="21dp"
         android:gravity="left"
         android:text="내가 거주하지 않는\n지역의 지진 재난 문자는\n왜 오는걸까?"
         android:textColor="#404040"
         android:textSize="28sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textViewA"
         android:layout_width="67dp"
         android:layout_height="85dp"
-        android:layout_marginEnd="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="162dp"
+        android:layout_marginEnd="36dp"
         android:text="A. "
         android:textColor="#404040"
-        android:textSize="70sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView4"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:textSize="70sp" />
+</RelativeLayout>

@@ -4,18 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D8E4E8"
+    android:background="#F7F4F2"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:backgroundTint="@color/mindfulBrown_20"
+        android:text="@string/back"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="75dp"
         android:text="지진 대피 알쓸신잡"
-        android:textColor="#000000"
+        android:textColor="@color/gray_40"
         android:textSize="45dp"
         android:textStyle="bold" />
 
@@ -23,11 +36,12 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
         android:gravity="center"
         android:text=": 알아두면 쓸데없는 신기한 잡학지식"
         android:textSize="20dp"
+        android:textColor="@color/gray_40"
         android:textStyle="bold" />
 
     <android.widget.Button
@@ -37,10 +51,12 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="55dp"
         android:background="@drawable/solid_button"
+        android:backgroundTint="@color/mindfulBrown_60"
         android:gravity="center"
-        android:text="알쓸신잡1"
-        android:textColor="#000000"
-        android:textSize="23dp" />
+        android:text="긴급한 재난 상황 속\n내 반려동물은 어떡하지?"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
 
 
     <android.widget.Button
@@ -51,9 +67,11 @@
         android:layout_marginTop="25dp"
         android:background="@drawable/solid_button"
         android:gravity="center"
-        android:text="알쓸신잡2"
-        android:textColor="#000000"
-        android:textSize="23dp" />
+        android:backgroundTint="@color/mindfulBrown_60"
+        android:text="나와 멀리 있는 곳의 재난 문자는\n왜 오는걸까?"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
 
     <android.widget.Button
         android:id="@+id/button7"
@@ -61,11 +79,13 @@
         android:layout_height="70dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="25dp"
+        android:backgroundTint="@color/mindfulBrown_60"
         android:background="@drawable/solid_button"
         android:gravity="center"
-        android:text="알쓸신잡3"
-        android:textColor="#000000"
-        android:textSize="23dp" />
+        android:text="과학 기술이 많이 발전하였는데도\n지진을 예측하긴 어려울까?"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
 
     <android.widget.Button
         android:id="@+id/button8"
@@ -73,12 +93,13 @@
         android:layout_height="70dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="25dp"
+        android:backgroundTint="@color/mindfulBrown_60"
         android:background="@drawable/solid_button"
         android:gravity="center"
-        android:text="알쓸신잡4"
-        android:textColor="#000000"
-        android:textSize="23dp" />
-
+        android:text="지진이 발생했다!\n우선 침착하게 이것부터 하자!"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
 
 
 </LinearLayout>
