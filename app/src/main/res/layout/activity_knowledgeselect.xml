@@ -1,30 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".KnowledgeSelect">
+    tools:context=".KnowledgeSelect"
+    android:layout_marginBottom="80sp">
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="152dp"
+        android:layout_width="380dp"
+        android:layout_height="180dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="231dp"
         android:layout_weight="1"
-        android:text="지진"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="281dp" />
+        android:backgroundTint="@color/green_50"
+        android:text="지진 재난 알쓸신잡"
+        android:textColor="@color/mindfulBrown_80"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
     <Button
         android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="152dp"
+        android:layout_width="380dp"
+        android:layout_height="180dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="52dp"
         android:layout_weight="1"
-        android:text="전시상황"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="325dp" />
+        android:backgroundTint="@color/green_50"
+        android:textColor="@color/mindfulBrown_80"
+        android:text="전시 상황 알쓸신잡"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
-
-</LinearLayout>
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="59dp"
+        android:text="💡"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+</RelativeLayout>
