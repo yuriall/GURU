@@ -23,6 +23,8 @@ class MainActivity : AppCompatActivity() {
 
         setFragment(TAG_MYPAGE ,MypageFragment())
 
+
+        // 네비게이션 아이콘 클릭 시 해당 프래그먼트로 이동
         binding.navigationView.setOnItemSelectedListener { item ->
             when(item.itemId) {
                 R.id.mypageFragment -> setFragment(TAG_MYPAGE, MypageFragment())
@@ -37,10 +39,12 @@ class MainActivity : AppCompatActivity() {
         val manager: FragmentManager = supportFragmentManager
         val fragTransaction = manager.beginTransaction()
 
+        // 해당 프래그먼트 없는 경우
         if (manager.findFragmentByTag(tag) == null){
             fragTransaction.add(R.id.mainFrameLayout, fragment, tag)
         }
 
+        // 각 태그에 해당하는 프래그먼트 숨김 처리
         val calender = manager.findFragmentByTag(TAG_MYPAGE)
         val home = manager.findFragmentByTag(TAG_SHELTER)
         val myPage = manager.findFragmentByTag(TAG_QUIZ)
@@ -57,6 +61,8 @@ class MainActivity : AppCompatActivity() {
             fragTransaction.hide(myPage)
         }
 
+
+        // 선택된 태그에 해당하는 프래그먼트 보여주기
         if (tag == TAG_MYPAGE) {
             if (calender!=null){
                 fragTransaction.show(calender)
