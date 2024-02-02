@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#F7F4F2"
     android:orientation="vertical"
-    tools:context=".knowledge2">
+    tools:context=".Earthquake1">
 
     <Button
         android:id="@+id/button_back"

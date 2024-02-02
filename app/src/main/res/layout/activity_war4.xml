@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,46 +7,71 @@
     android:background="#F7F4F2"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textViewQ"
+    <Button
+        android:id="@+id/button_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="72dp"
-        android:text="Q. "
-        android:textColor="#404040"
-        android:textSize="80sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/mindfulBrown_20"
+        android:text="@string/back"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="Q. 질문내용"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="26dp"
+        android:text="공습경보가 울리면\n안전한 곳에 있어야할까?\n대피해야할까?"
         android:textSize="28sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/textViewQ"
+        android:layout_width="81dp"
+        android:layout_height="106dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="128dp"
+        android:text="Q. "
+        android:textColor="#404040"
+        android:textSize="80sp" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="A. 답변내용"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="-13dp"
+        android:lineSpacingExtra="7sp"
+        android:text="공습경보가 울리면 집에 있지말고, 즉시!\n지하대피소 등 안전한 곳으로 빨리\n대피하고 고층건물에서는 지하실 또는 아랫층\n으로 대피해야해.\n화생방 공격에 대비하여 방독면이나\n개인보호장비와 같은 생필품도 챙겨야하지.\n만약 차량에 타고있었다면 도로 오른쪽에 차량을 세워두고 안전한 곳으로 대피해야해. \n그 이후에는 라디오나 방송매체를 통해\n정부의 안내를 따라서 행동해야해."
         android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView9" />
+        android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="4번 알쓸신잡"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView10" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:id="@+id/textViewA"
+        android:layout_width="67dp"
+        android:layout_height="86dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="4dp"
+        android:text="A. "
+        android:textColor="#404040"
+        android:textSize="70sp"
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="210dp" />
+</RelativeLayout>
