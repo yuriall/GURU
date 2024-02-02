@@ -3,10 +3,11 @@
     android:shape="rectangle">
     <!--외곽선-->
     <stroke
-        android:width="2dp"
-        android:color="#4c7380"/>
+        android:width="5dp"
+        android:color="@color/mindfulBrown_60"/>
     <!--내부 색상-->
-    <solid android:color="#D8E4E8"/>
+    <solid android:color="@color/mindfulBrown_10"/>
     <!--모서리둥근정도-->
     <corners android:radius="20dp"/>
+
 </shape>

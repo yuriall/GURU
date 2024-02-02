@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-
+//퀴즈 stage 선택 화면
 class Quiz2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,37 +18,37 @@ class Quiz2 : AppCompatActivity() {
         val buttonNavigate5:Button = findViewById(R.id.button7)
 
         buttonNavigate.setOnClickListener {
-            // back
+            // back 버튼, 누르면 이전 화면인 퀴즈 시작 화면으로 이동
             val intent = Intent(this@Quiz2, Quiz::class.java)
             startActivity(intent)
         }
 
         buttonNavigate1.setOnClickListener {
-            // 스테이지 1
+            // stage1 버튼, 누르면 stage1 시작 화면으로 이동
             val intent = Intent(this@Quiz2, Quiz3::class.java)
             startActivity(intent)
         }
 
         buttonNavigate2.setOnClickListener {
-            // 스테이지 2
+            // stage2 버튼, 누르면 stage1 시작 화면으로 이동
             val intent = Intent(this@Quiz2, Quiz4::class.java)
             startActivity(intent)
         }
 
         buttonNavigate3.setOnClickListener {
-            // 스테이지 3
+            // stage3 버튼, 누르면 stage1 시작 화면으로 이동
             val intent = Intent(this@Quiz2, Quiz5::class.java)
             startActivity(intent)
         }
 
         buttonNavigate4.setOnClickListener {
-            // 스테이지 4
+            // stage4 버튼, 누르면 stage1 시작 화면으로 이동
             val intent = Intent(this@Quiz2, Quiz6::class.java)
             startActivity(intent)
         }
 
         buttonNavigate5.setOnClickListener {
-            // 스테이지 5
+            // stage5 버튼, 누르면 stage1 시작 화면으로 이동
             val intent = Intent(this@Quiz2, Quiz7::class.java)
             startActivity(intent)
         }

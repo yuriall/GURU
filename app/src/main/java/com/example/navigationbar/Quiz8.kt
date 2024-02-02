@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.navigationbar.databinding.ActivityQuiz8Binding
-
+//퀴즈 결과 화면
 class Quiz8 : AppCompatActivity() {
     private lateinit var binding:ActivityQuiz8Binding
 
@@ -12,7 +12,7 @@ class Quiz8 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityQuiz8Binding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        //전체 질문 중 score가 몇점인지 나타내기
         val score = intent.getIntExtra("Score", 0)
         val totalSize = intent.getIntExtra("Total", 0)
 
