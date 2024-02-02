@@ -43,7 +43,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="109dp"
+        android:layout_marginBottom="124dp"
         android:gravity="left"
         android:lineSpacingExtra="6dp"
         android:text="지진 대피소에는 반려동물이 함께\n갈 수 없어 재해구조법 3조는 구호\n대상을 ‘이재민, 일시대피자, 이외 재해로\n인한 심리적 안정과 사회 적응 지원이 필요한\n사람으로서 대통령령으로 정하는 사람’으로\n규정해두었기 때문이야.\n하지만, 정부에서 반려동물 보호자에게\n제공하고 있는 재난 대응 가이드라인도 있으니\n반려동물을 사랑하는 반려인이라면\n한 번씩 참고해!"
