@@ -30,12 +30,12 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="18dp"
         android:lineSpacingExtra="5sp"
         android:text="1. 경계경보\n- 적의 공격이 예상될 때\n- 사이렌으로 1분 동안 평탄음(---)이 울리고\n  라디오·TV·확성기 등으로 경보방송\n\n2. 공습경보\n- 적의 공격이 긴박하거나 공습중일 때\n- 사이렌으로 3분 동안 파상음(∼∼∼)이 울리고\n  라디오·TV·확성기 등으로도 경보방송\n\n3. 경보가 울리면 어떻게 해야할까?\n- 즉시 방송을 들으며 정부의 안내에 따르기\n- 밤에는 불을 꺼야하며 부득이한 경우에는 \n  불빛이 밖으로 새어 나가지 않도록 차단"
-        android:textSize="20sp"
+        android:textSize="19sp"
         android:textStyle="bold" />
 
     <TextView
@@ -44,8 +44,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="84dp"
         android:text="Q. "
         android:textColor="#404040"
         android:textSize="80sp" />
@@ -58,7 +58,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="97dp"
-        android:layout_marginTop="85dp"
+        android:layout_marginTop="66dp"
         android:layout_marginEnd="16dp"
         android:text="이것 모르면 대피 못 한다!\n경보의 종류에는\n어떤 것이 있을까?"
         android:textColor="#404040"

@@ -26,10 +26,22 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="85dp"
+        android:layout_marginBottom="30dp"
         android:lineSpacingExtra="7dp"
         android:text="1. 지진으로 흔들릴 때는?\n지진으로 흔들리는 동안은 탁자 아래로\n들어가 몸을 보호하고, 탁자 다리를 잡습니다.\n\n2. 흔들림이 멈췄을 때는?\n흔들림이 멈추면 전기와 가스를 차단하고,\n문을 열어 출구를 확보합니다.\n\n3. 대피 장소를 찾을 때는?\n절대 차량을 이용하지 않고 떨어지는 물건에\n유의하며 신속하게 운동장이나 공원 등\n넓은 공간으로 대피합니다."
         android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="23dp"
+        android:text="지진이 발생했다면\n당황하지 말고\n침착하게 이것부터 하자!"
+        android:textSize="28sp"
         android:textStyle="bold" />
 
     <TextView
@@ -38,21 +50,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
         android:text="Q. "
         android:textColor="#404040"
         android:textSize="80sp" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="82dp"
-        android:layout_marginEnd="22dp"
-        android:text="지진이 발생했다면\n당황하지 말고\n침착하게 이것부터 하자!"
-        android:textSize="28sp"
-        android:textStyle="bold" />
 
 </RelativeLayout>

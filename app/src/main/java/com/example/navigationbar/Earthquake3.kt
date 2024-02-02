@@ -10,15 +10,17 @@ class Earthquake3 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_earthquake3)
 
+        //사용할 버튼 정의
         val button_back=findViewById<Button>(R.id.button_back)
 
+        //다른 페이지로 이동할 수 있도록 Intent로 정의
         fun moveToAnotherPage(className: Class<*>) {
             val intent = Intent(this, className)
             startActivity(intent)
         }
-
+        //버튼 클릭 시에 이전 페이지로 이동
         button_back.setOnClickListener {
-            moveToAnotherPage(KnowledgeSelect::class.java)
+            moveToAnotherPage(Earthquake::class.java)
         }
     }
 }

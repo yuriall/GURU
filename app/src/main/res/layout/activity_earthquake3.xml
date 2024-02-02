@@ -21,16 +21,18 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="229dp"
-        android:layout_height="120dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="82dp"
-        android:text="지진을 미리\n예측하기는 어려운걸까?"
-        android:textColor="#404040"
-        android:textSize="28sp"
+        android:id="@+id/textView7"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="54dp"
+        android:gravity="left"
+        android:lineSpacingExtra="6dp"
+        android:text="아직까지는 지진을 완벽히 예측할 수\n있는 기술은 발전되지 않았다고 해.\n지진을 미리 예측할 수 있다면 수많은 피해를 예방할 수 있기때문에 알아둘 수 있다면 매우 중요한 정보가 될거야.\n그렇다면 지진 예측이 어려운 이유는 뭘까?\n첫 번째로 지구 내부는 다양한 물질로 구성\n되어 있어서 예측하더라도 틀릴 가능성이 높아\n두 번째로는 지진 발생 과정이 연쇄적으로 \n얽혀있기 때문이라고 해. 충돌, 미끄러짐,\n간극 형성 등의 단계가 복잡해서 이러한 단계들을 정확하게 예측하는 것이 어려워  "
+        android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
@@ -39,11 +41,24 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="38dp"
-        android:layout_marginTop="95dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="67dp"
         android:text="Q. "
         android:textColor="#404040"
         android:textSize="80sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="91dp"
+        android:text="지진을 미리\n예측하기는 어려운걸까?"
+        android:textColor="#404040"
+        android:textSize="28sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textViewA"
@@ -51,25 +66,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="205dp"
-        android:layout_marginEnd="13dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="19dp"
         android:text="A. "
         android:textColor="#404040"
         android:textSize="70sp" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="380dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginEnd="11dp"
-        android:layout_marginBottom="47dp"
-        android:gravity="left"
-        android:lineSpacingExtra="7dp"
-        android:text="아직까지는 지진을 완벽히 예측할 수\n있는 기술은 발전되지 않았다고 해.\n지진을 미리 예측할 수 있다면 수많은 피해를 예방할 수 있기때문에 알아둘 수 있다면 매우 중요한 정보가 될거야.\n그렇다면 지진 예측이 어려운 이유는 뭘까?\n첫 번째로 지구 내부는 다양한 물질로 구성\n되어 있어서 예측하더라도 틀릴 가능성이 높아\n두 번째로는 지진 발생 과정이 연쇄적으로 \n얽혀있기 때문이라고 해. 충돌, 미끄러짐,\n간극 형성 등의 단계가 복잡하게 얽혀있어서 이러한 단계들을 정확하게 예측하는 것이 \n어렵다고 해.  "
-        android:textSize="20sp"
-        android:textStyle="bold" />
 
 </RelativeLayout>

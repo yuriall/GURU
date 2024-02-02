@@ -4,21 +4,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:gravity="center"
     android:orientation="vertical"
     tools:context=".QuizFragment"
     android:layout_marginBottom="20dp">
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/mindfulBrown_20"
+        android:text="@string/back"
+        android:textColor="#000000"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
         android:layout_weight="1"
-        android:layout_marginTop="59dp"
+        android:layout_marginLeft="140dp"
         android:text="💡"
         android:textSize="100sp"
         android:textStyle="bold" />
-
 
     <Button
         android:id="@+id/button3"
@@ -29,7 +41,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="20dp"
         android:backgroundTint="@color/green_50"
-        android:text="지진 재난 알쓸신잡"
+        android:text="지진 대피 알쓸신잡"
         android:textColor="@color/mindfulBrown_80"
         android:textSize="30sp"
         android:textStyle="bold" />
