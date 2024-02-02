@@ -63,12 +63,13 @@ class Signup : AppCompatActivity() {
         val inputPassword = etPassword.text.toString().trim()
         val inputName = etName.text.toString().trim()
 
+        //이메일, 비밀번호, 이름 비어있지 않으면 작업 진행
         if (inputEmail.isNotEmpty() && inputPassword.isNotEmpty() && inputName.isNotEmpty()) {
             mAuth.createUserWithEmailAndPassword(inputEmail, inputPassword)
                 .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
                         val user: FirebaseUser? = mAuth.currentUser
-
+                        // Firestore에 넣을 데이터 구조화
                         val userMap: MutableMap<String, Any> = HashMap()
                         userMap[FirebaseID.documentId] = user?.uid ?: ""
                         userMap[FirebaseID.email] = inputEmail
@@ -83,12 +84,14 @@ class Signup : AppCompatActivity() {
                                 startActivity(intent)
                             }
                             .addOnFailureListener { exception ->
+                                //잘못된 오류사항에 대해서 토스트 메시지 띄우기
                                 val errorMessage = "Firestore 데이터 추가 실패: ${exception.message}"
                                 Toast.makeText(this@Signup, errorMessage, Toast.LENGTH_SHORT).show()
                                 Log.e("Firestore", errorMessage, exception)
                             }
 
                     } else {
+                        //오류시 토스트 메시지 띄우기
                         Toast.makeText(this@Signup, "회원가입 실패", Toast.LENGTH_SHORT).show()
                     }
                 }

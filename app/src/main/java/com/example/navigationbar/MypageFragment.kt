@@ -24,7 +24,6 @@ class MypageFragment : Fragment(), View.OnClickListener {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_mypage, container, false)
 
         // 로그아웃 버튼
