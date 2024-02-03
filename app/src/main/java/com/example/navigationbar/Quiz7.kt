@@ -27,7 +27,7 @@ class Quiz7 : AppCompatActivity(), View.OnClickListener {
         binding = ActivityQuiz7Binding.inflate(layoutInflater)
         setContentView(binding.root)
         //QuizData에 있는 문제들을 questionList에 가져옴
-        questionList = QuizData.getQuestion()
+        questionList = QuizData5.getQuestion()
         //화면 셋팅
         getQuestionData()
         //binding을 사용하여 선택지 버튼 클릭리스너 설정
@@ -97,7 +97,7 @@ class Quiz7 : AppCompatActivity(), View.OnClickListener {
 
         //답변 텍스트뷰 설정
         for(op in optionList){
-            op.setTextColor(Color.parseColor("@color/mindfulBrown_80"))
+            op.setTextColor(ContextCompat.getColor(this, R.color.mindfulBrown_80))
             op.background = ContextCompat.getDrawable(this, R.drawable.option_background)
             op.typeface = Typeface.DEFAULT
         }
@@ -108,7 +108,7 @@ class Quiz7 : AppCompatActivity(), View.OnClickListener {
         setOptionStyle()
         //선택한 선지 디자인을 바꿈
         selectedOption = opt
-        view.setTextColor((Color.parseColor("@color/mindfulBrown_80")))
+        view.setTextColor((ContextCompat.getColor(this, R.color.mindfulBrown_80)))
         view.background = ContextCompat.getDrawable(this, R.drawable.selected_option_background)
         view.typeface = Typeface.DEFAULT_BOLD
     }

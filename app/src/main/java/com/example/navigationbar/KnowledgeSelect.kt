@@ -29,7 +29,16 @@ class KnowledgeSelect : AppCompatActivity() {
             moveToAnotherPage(War::class.java)
         }
         button_back.setOnClickListener {
-            moveToAnotherPage(KnowledgeSelect::class.java)
+            // 프래그먼트 트랜잭션 시작
+            val fragmentTransaction = supportFragmentManager.beginTransaction()
+
+            // 대상 프래그먼트 생성
+            val fragment = QuizFragment()
+
+            // 프래그먼트를 스택에 추가하고 커밋
+            fragmentTransaction.replace(R.id.fragmentContainer, fragment)
+            fragmentTransaction.addToBackStack(null)
+            fragmentTransaction.commit()
         }
     }
 }

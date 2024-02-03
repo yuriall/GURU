@@ -39,7 +39,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text=": 알아두면 쓸데없는 신기한 잡학지식"
+        android:text=": 알아두면 쓸모있는 신기한 잡학지식"
         android:textColor="@color/mindfulBrown_80"
         android:textSize="20dp"
         android:textStyle="bold" />

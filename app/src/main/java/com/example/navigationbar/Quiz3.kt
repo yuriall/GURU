@@ -96,7 +96,7 @@ class Quiz3 : AppCompatActivity(), View.OnClickListener {
 
         //답변 텍스트뷰 설정
         for(op in optionList){
-            op.setTextColor(Color.parseColor("@color/mindfulBrown_80"))
+            op.setTextColor(ContextCompat.getColor(this, R.color.mindfulBrown_80))
             op.background = ContextCompat.getDrawable(this, R.drawable.option_background)
             op.typeface = Typeface.DEFAULT
         }
@@ -107,7 +107,7 @@ class Quiz3 : AppCompatActivity(), View.OnClickListener {
         setOptionStyle()
         //선택한 선지 디자인을 바꿈
         selectedOption = opt
-        view.setTextColor((Color.parseColor("@color/mindfulBrown_80")))
+        view.setTextColor((ContextCompat.getColor(this, R.color.mindfulBrown_80)))
         view.background = ContextCompat.getDrawable(this, R.drawable.selected_option_background)
         view.typeface = Typeface.DEFAULT_BOLD
     }
