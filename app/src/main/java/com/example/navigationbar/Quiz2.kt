@@ -30,25 +30,25 @@ class Quiz2 : AppCompatActivity() {
         }
 
         buttonNavigate2.setOnClickListener {
-            // stage2 버튼, 누르면 stage1 시작 화면으로 이동
+            // stage2 버튼, 누르면 stage2 시작 화면으로 이동
             val intent = Intent(this@Quiz2, Quiz4::class.java)
             startActivity(intent)
         }
 
         buttonNavigate3.setOnClickListener {
-            // stage3 버튼, 누르면 stage1 시작 화면으로 이동
+            // stage3 버튼, 누르면 stage3 시작 화면으로 이동
             val intent = Intent(this@Quiz2, Quiz5::class.java)
             startActivity(intent)
         }
 
         buttonNavigate4.setOnClickListener {
-            // stage4 버튼, 누르면 stage1 시작 화면으로 이동
+            // stage4 버튼, 누르면 stage4 시작 화면으로 이동
             val intent = Intent(this@Quiz2, Quiz6::class.java)
             startActivity(intent)
         }
 
         buttonNavigate5.setOnClickListener {
-            // stage5 버튼, 누르면 stage1 시작 화면으로 이동
+            // stage5 버튼, 누르면 stage5 시작 화면으로 이동
             val intent = Intent(this@Quiz2, Quiz7::class.java)
             startActivity(intent)
         }

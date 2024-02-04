@@ -18,7 +18,7 @@ class Quiz3 : AppCompatActivity(), View.OnClickListener {
     private var selectedOption: Int = 0
     //점수
     private var score: Int = 0
-    //배열리스트 선언 QuizData를 Question 리스트에 저장할 것임
+    //배열리스트 questionList를 Question 리스트에 저장할 것임
     private lateinit var questionList: ArrayList<Question>
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -47,7 +47,7 @@ class Quiz3 : AppCompatActivity(), View.OnClickListener {
             currentPosition++
             //더 넘어갈 질문이 있는지 확인
             if (currentPosition <= questionList.size) {
-                // 다음 문제 셋팅
+                //다음 문제가 있다면 다음 문제 셋팅
                 getQuestionData()
                 if (currentPosition == questionList.size) {
                     binding.btnSubmit.text = getString(R.string.submit, "결과 확인하기")
